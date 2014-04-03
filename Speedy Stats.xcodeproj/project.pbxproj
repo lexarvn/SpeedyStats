@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E39561F1774D0920000C359 /* SalesComparisonSelectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E39561D1774D0920000C359 /* SalesComparisonSelectionsViewController.m */; };
+		0E3956201774D0920000C359 /* SalesComparisonSelectionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E39561E1774D0920000C359 /* SalesComparisonSelectionsViewController.xib */; };
+		0E3956241774FCF70000C359 /* SalesComparisonChartsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3956221774FCF60000C359 /* SalesComparisonChartsViewController.m */; };
+		0E3956251774FCF70000C359 /* SalesComparisonChartsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E3956231774FCF70000C359 /* SalesComparisonChartsViewController.xib */; };
+		0E395628177511810000C359 /* PieChartUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E395627177511810000C359 /* PieChartUIView.m */; };
+		0E39562C1775289E0000C359 /* TopSalesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E39562A1775289D0000C359 /* TopSalesViewController.m */; };
+		0E39562D1775289E0000C359 /* TopSalesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E39562B1775289E0000C359 /* TopSalesViewController.xib */; };
+		0E39891B1771407900A5D19D /* top.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3989171771407900A5D19D /* top.png */; };
+		0E39891C1771407900A5D19D /* charts.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3989181771407900A5D19D /* charts.png */; };
+		0E39891D1771407900A5D19D /* totals.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3989191771407900A5D19D /* totals.png */; };
+		0E39891E1771407900A5D19D /* shipping.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E39891A1771407900A5D19D /* shipping.png */; };
+		0E398922177143F400A5D19D /* SalesTotalsSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E398920177143F300A5D19D /* SalesTotalsSelectionViewController.m */; };
+		0E398923177143F400A5D19D /* SalesTotalsSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E398921177143F400A5D19D /* SalesTotalsSelectionViewController.xib */; };
+		0E4FF531176A824100FB73D9 /* iconSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E4FF530176A824100FB73D9 /* iconSmall.png */; };
+		0E4FF533176A824700FB73D9 /* iconBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E4FF532176A824700FB73D9 /* iconBig.png */; };
+		0E4FF535176A8B3500FB73D9 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E4FF534176A8B3500FB73D9 /* bg.png */; };
+		0EB71A2B176AA8290057F057 /* JF.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB71A2A176AA8290057F057 /* JF.png */; };
+		0EF45364176A2E0100B667C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF45363176A2E0100B667C1 /* UIKit.framework */; };
+		0EF45366176A2E0100B667C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF45365176A2E0100B667C1 /* Foundation.framework */; };
+		0EF45368176A2E0100B667C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF45367176A2E0100B667C1 /* CoreGraphics.framework */; };
+		0EF4536E176A2E0100B667C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EF4536C176A2E0100B667C1 /* InfoPlist.strings */; };
+		0EF45370176A2E0100B667C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF4536F176A2E0100B667C1 /* main.m */; };
+		0EF45374176A2E0100B667C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF45373176A2E0100B667C1 /* AppDelegate.m */; };
+		0EF45376176A2E0100B667C1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF45375176A2E0100B667C1 /* Default.png */; };
+		0EF45378176A2E0100B667C1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF45377176A2E0100B667C1 /* Default@2x.png */; };
+		0EF4537A176A2E0100B667C1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF45379176A2E0100B667C1 /* Default-568h@2x.png */; };
+		0EF4537D176A2E0100B667C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF4537C176A2E0100B667C1 /* ViewController.m */; };
+		0EF45380176A2E0100B667C1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EF4537E176A2E0100B667C1 /* ViewController.xib */; };
+		0EF4538B176A3B7100B667C1 /* Banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF4538A176A3B7100B667C1 /* Banner.png */; };
+		0EF45391176A4A3700B667C1 /* PostJsonInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF45390176A4A3700B667C1 /* PostJsonInteraction.m */; };
+		0EF45395176A63D100B667C1 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF45393176A63D100B667C1 /* MenuViewController.m */; };
+		0EF45396176A63D100B667C1 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EF45394176A63D100B667C1 /* MenuViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E39561C1774D0910000C359 /* SalesComparisonSelectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesComparisonSelectionsViewController.h; sourceTree = "<group>"; };
+		0E39561D1774D0920000C359 /* SalesComparisonSelectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesComparisonSelectionsViewController.m; sourceTree = "<group>"; };
+		0E39561E1774D0920000C359 /* SalesComparisonSelectionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SalesComparisonSelectionsViewController.xib; sourceTree = "<group>"; };
+		0E3956211774FCF60000C359 /* SalesComparisonChartsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesComparisonChartsViewController.h; sourceTree = "<group>"; };
+		0E3956221774FCF60000C359 /* SalesComparisonChartsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesComparisonChartsViewController.m; sourceTree = "<group>"; };
+		0E3956231774FCF70000C359 /* SalesComparisonChartsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SalesComparisonChartsViewController.xib; sourceTree = "<group>"; };
+		0E395626177511810000C359 /* PieChartUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartUIView.h; sourceTree = "<group>"; };
+		0E395627177511810000C359 /* PieChartUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartUIView.m; sourceTree = "<group>"; };
+		0E3956291775289D0000C359 /* TopSalesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopSalesViewController.h; sourceTree = "<group>"; };
+		0E39562A1775289D0000C359 /* TopSalesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopSalesViewController.m; sourceTree = "<group>"; };
+		0E39562B1775289E0000C359 /* TopSalesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopSalesViewController.xib; sourceTree = "<group>"; };
+		0E3989171771407900A5D19D /* top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top.png; sourceTree = "<group>"; };
+		0E3989181771407900A5D19D /* charts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charts.png; sourceTree = "<group>"; };
+		0E3989191771407900A5D19D /* totals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = totals.png; sourceTree = "<group>"; };
+		0E39891A1771407900A5D19D /* shipping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shipping.png; sourceTree = "<group>"; };
+		0E39891F177143F300A5D19D /* SalesTotalsSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesTotalsSelectionViewController.h; sourceTree = "<group>"; };
+		0E398920177143F300A5D19D /* SalesTotalsSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesTotalsSelectionViewController.m; sourceTree = "<group>"; };
+		0E398921177143F400A5D19D /* SalesTotalsSelectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SalesTotalsSelectionViewController.xib; sourceTree = "<group>"; };
+		0E4FF530176A824100FB73D9 /* iconSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconSmall.png; sourceTree = "<group>"; };
+		0E4FF532176A824700FB73D9 /* iconBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconBig.png; sourceTree = "<group>"; };
+		0E4FF534176A8B3500FB73D9 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		0EB71A2A176AA8290057F057 /* JF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JF.png; sourceTree = "<group>"; };
+		0EF45360176A2E0100B667C1 /* Speedy Stats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Speedy Stats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EF45363176A2E0100B667C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0EF45365176A2E0100B667C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0EF45367176A2E0100B667C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0EF4536B176A2E0100B667C1 /* Speedy Stats-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Speedy Stats-Info.plist"; sourceTree = "<group>"; };
+		0EF4536D176A2E0100B667C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0EF4536F176A2E0100B667C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0EF45371176A2E0100B667C1 /* Speedy Stats-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Speedy Stats-Prefix.pch"; sourceTree = "<group>"; };
+		0EF45372176A2E0100B667C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0EF45373176A2E0100B667C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0EF45375176A2E0100B667C1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0EF45377176A2E0100B667C1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0EF45379176A2E0100B667C1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0EF4537B176A2E0100B667C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0EF4537C176A2E0100B667C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0EF4537F176A2E0100B667C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0EF4538A176A3B7100B667C1 /* Banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Banner.png; sourceTree = "<group>"; };
+		0EF4538F176A4A3700B667C1 /* PostJsonInteraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostJsonInteraction.h; sourceTree = "<group>"; };
+		0EF45390176A4A3700B667C1 /* PostJsonInteraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostJsonInteraction.m; sourceTree = "<group>"; };
+		0EF45392176A63D100B667C1 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		0EF45393176A63D100B667C1 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		0EF45394176A63D100B667C1 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EF4535D176A2E0100B667C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF45364176A2E0100B667C1 /* UIKit.framework in Frameworks */,
+				0EF45366176A2E0100B667C1 /* Foundation.framework in Frameworks */,
+				0EF45368176A2E0100B667C1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EF45357176A2E0100B667C1 = {
+			isa = PBXGroup;
+			children = (
+				0E4FF530176A824100FB73D9 /* iconSmall.png */,
+				0E4FF532176A824700FB73D9 /* iconBig.png */,
+				0EF45369176A2E0100B667C1 /* Speedy Stats */,
+				0EF45362176A2E0100B667C1 /* Frameworks */,
+				0EF45361176A2E0100B667C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EF45361176A2E0100B667C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EF45360176A2E0100B667C1 /* Speedy Stats.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EF45362176A2E0100B667C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EF45363176A2E0100B667C1 /* UIKit.framework */,
+				0EF45365176A2E0100B667C1 /* Foundation.framework */,
+				0EF45367176A2E0100B667C1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0EF45369176A2E0100B667C1 /* Speedy Stats */ = {
+			isa = PBXGroup;
+			children = (
+				0EF45372176A2E0100B667C1 /* AppDelegate.h */,
+				0EF45373176A2E0100B667C1 /* AppDelegate.m */,
+				0EF4538F176A4A3700B667C1 /* PostJsonInteraction.h */,
+				0EF45390176A4A3700B667C1 /* PostJsonInteraction.m */,
+				0EF4537B176A2E0100B667C1 /* ViewController.h */,
+				0EF4537C176A2E0100B667C1 /* ViewController.m */,
+				0EF4537E176A2E0100B667C1 /* ViewController.xib */,
+				0EF45392176A63D100B667C1 /* MenuViewController.h */,
+				0EF45393176A63D100B667C1 /* MenuViewController.m */,
+				0EF45394176A63D100B667C1 /* MenuViewController.xib */,
+				0E39891F177143F300A5D19D /* SalesTotalsSelectionViewController.h */,
+				0E398920177143F300A5D19D /* SalesTotalsSelectionViewController.m */,
+				0E398921177143F400A5D19D /* SalesTotalsSelectionViewController.xib */,
+				0E39561C1774D0910000C359 /* SalesComparisonSelectionsViewController.h */,
+				0E39561D1774D0920000C359 /* SalesComparisonSelectionsViewController.m */,
+				0E39561E1774D0920000C359 /* SalesComparisonSelectionsViewController.xib */,
+				0E3956211774FCF60000C359 /* SalesComparisonChartsViewController.h */,
+				0E3956221774FCF60000C359 /* SalesComparisonChartsViewController.m */,
+				0E3956231774FCF70000C359 /* SalesComparisonChartsViewController.xib */,
+				0E395626177511810000C359 /* PieChartUIView.h */,
+				0E395627177511810000C359 /* PieChartUIView.m */,
+				0E3956291775289D0000C359 /* TopSalesViewController.h */,
+				0E39562A1775289D0000C359 /* TopSalesViewController.m */,
+				0E39562B1775289E0000C359 /* TopSalesViewController.xib */,
+				0EF4536A176A2E0100B667C1 /* Supporting Files */,
+			);
+			path = "Speedy Stats";
+			sourceTree = "<group>";
+		};
+		0EF4536A176A2E0100B667C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E3989171771407900A5D19D /* top.png */,
+				0E3989181771407900A5D19D /* charts.png */,
+				0E3989191771407900A5D19D /* totals.png */,
+				0E39891A1771407900A5D19D /* shipping.png */,
+				0EB71A2A176AA8290057F057 /* JF.png */,
+				0E4FF534176A8B3500FB73D9 /* bg.png */,
+				0EF4538A176A3B7100B667C1 /* Banner.png */,
+				0EF4536B176A2E0100B667C1 /* Speedy Stats-Info.plist */,
+				0EF4536C176A2E0100B667C1 /* InfoPlist.strings */,
+				0EF4536F176A2E0100B667C1 /* main.m */,
+				0EF45371176A2E0100B667C1 /* Speedy Stats-Prefix.pch */,
+				0EF45375176A2E0100B667C1 /* Default.png */,
+				0EF45377176A2E0100B667C1 /* Default@2x.png */,
+				0EF45379176A2E0100B667C1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EF4535F176A2E0100B667C1 /* Speedy Stats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EF45383176A2E0100B667C1 /* Build configuration list for PBXNativeTarget "Speedy Stats" */;
+			buildPhases = (
+				0EF4535C176A2E0100B667C1 /* Sources */,
+				0EF4535D176A2E0100B667C1 /* Frameworks */,
+				0EF4535E176A2E0100B667C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Speedy Stats";
+			productName = "Speedy Stats";
+			productReference = 0EF45360176A2E0100B667C1 /* Speedy Stats.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EF45358176A2E0100B667C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jeffrey Farb";
+			};
+			buildConfigurationList = 0EF4535B176A2E0100B667C1 /* Build configuration list for PBXProject "Speedy Stats" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0EF45357176A2E0100B667C1;
+			productRefGroup = 0EF45361176A2E0100B667C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EF4535F176A2E0100B667C1 /* Speedy Stats */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EF4535E176A2E0100B667C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF4536E176A2E0100B667C1 /* InfoPlist.strings in Resources */,
+				0EF45376176A2E0100B667C1 /* Default.png in Resources */,
+				0EF45378176A2E0100B667C1 /* Default@2x.png in Resources */,
+				0EF4537A176A2E0100B667C1 /* Default-568h@2x.png in Resources */,
+				0EF45380176A2E0100B667C1 /* ViewController.xib in Resources */,
+				0EF4538B176A3B7100B667C1 /* Banner.png in Resources */,
+				0EF45396176A63D100B667C1 /* MenuViewController.xib in Resources */,
+				0E4FF531176A824100FB73D9 /* iconSmall.png in Resources */,
+				0E4FF533176A824700FB73D9 /* iconBig.png in Resources */,
+				0E4FF535176A8B3500FB73D9 /* bg.png in Resources */,
+				0EB71A2B176AA8290057F057 /* JF.png in Resources */,
+				0E39891B1771407900A5D19D /* top.png in Resources */,
+				0E39891C1771407900A5D19D /* charts.png in Resources */,
+				0E39891D1771407900A5D19D /* totals.png in Resources */,
+				0E39891E1771407900A5D19D /* shipping.png in Resources */,
+				0E398923177143F400A5D19D /* SalesTotalsSelectionViewController.xib in Resources */,
+				0E3956201774D0920000C359 /* SalesComparisonSelectionsViewController.xib in Resources */,
+				0E3956251774FCF70000C359 /* SalesComparisonChartsViewController.xib in Resources */,
+				0E39562D1775289E0000C359 /* TopSalesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EF4535C176A2E0100B667C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF45370176A2E0100B667C1 /* main.m in Sources */,
+				0EF45374176A2E0100B667C1 /* AppDelegate.m in Sources */,
+				0EF4537D176A2E0100B667C1 /* ViewController.m in Sources */,
+				0EF45391176A4A3700B667C1 /* PostJsonInteraction.m in Sources */,
+				0EF45395176A63D100B667C1 /* MenuViewController.m in Sources */,
+				0E398922177143F400A5D19D /* SalesTotalsSelectionViewController.m in Sources */,
+				0E39561F1774D0920000C359 /* SalesComparisonSelectionsViewController.m in Sources */,
+				0E3956241774FCF70000C359 /* SalesComparisonChartsViewController.m in Sources */,
+				0E395628177511810000C359 /* PieChartUIView.m in Sources */,
+				0E39562C1775289E0000C359 /* TopSalesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0EF4536C176A2E0100B667C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EF4536D176A2E0100B667C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0EF4537E176A2E0100B667C1 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EF4537F176A2E0100B667C1 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EF45381176A2E0100B667C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0EF45382176A2E0100B667C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EF45384176A2E0100B667C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Speedy Stats/Speedy Stats-Prefix.pch";
+				INFOPLIST_FILE = "Speedy Stats/Speedy Stats-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0EF45385176A2E0100B667C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Speedy Stats/Speedy Stats-Prefix.pch";
+				INFOPLIST_FILE = "Speedy Stats/Speedy Stats-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EF4535B176A2E0100B667C1 /* Build configuration list for PBXProject "Speedy Stats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EF45381176A2E0100B667C1 /* Debug */,
+				0EF45382176A2E0100B667C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EF45383176A2E0100B667C1 /* Build configuration list for PBXNativeTarget "Speedy Stats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EF45384176A2E0100B667C1 /* Debug */,
+				0EF45385176A2E0100B667C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EF45358176A2E0100B667C1 /* Project object */;
+}
